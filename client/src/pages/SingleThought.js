@@ -8,10 +8,15 @@ import CommentList from '../components/CommentList';
 import CommentForm from '../components/CommentForm';
 
 import { QUERY_SINGLE_THOUGHT } from '../utils/queries';
+// import { Button, Icon, Image, Modal } from 'semantic-ui-react'
+
+
+
 
 const SingleThought = () => {
   // Use `useParams()` to retrieve value of the route parameter `:profileId`
   const { thoughtId } = useParams();
+  // const [open, setOpen] = React.useState(false)
 
   const { loading, data } = useQuery(QUERY_SINGLE_THOUGHT, {
     // pass URL parameter
@@ -24,6 +29,7 @@ const SingleThought = () => {
     return <div>Loading...</div>;
   }
   return (
+
     <div className="my-3">
       <h3 className="card-header bg-dark text-light p-2 m-0">
         {thought.thoughtAuthor} <br />

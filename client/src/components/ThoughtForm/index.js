@@ -4,14 +4,16 @@ import { useMutation } from '@apollo/client';
 
 import { ADD_THOUGHT } from '../../utils/mutations';
 import { QUERY_THOUGHTS, QUERY_ME } from '../../utils/queries';
+import {
+  Dropdown, Button, Icon, Modal, Image, Input, Segment,
+  Divider, Tab, Message, Form
+} from 'semantic-ui-react'
 
 import Auth from '../../utils/auth';
 
 const ThoughtForm = () => {
   const [thoughtText, setThoughtText] = useState('');
-
   const [characterCount, setCharacterCount] = useState(0);
-
   const [addThought, { error }] = useMutation(ADD_THOUGHT, {
     update(cache, { data: { addThought } }) {
       try {
@@ -60,24 +62,62 @@ const ThoughtForm = () => {
     }
   };
 
+
+  const fileInputRef = React.createRef();
+  const onFormSubmit = e => {
+    e.preventDefault(); // Stop form submit
+    this.fileUpload(this.state.file).then(response => {
+      console.log(response.data);
+    });
+  };
+
+  const fileChange = e => {
+    this.setState({ file: e.target.files[0] }, () => {
+      console.log("File chosen --->", this.state.file);
+    });
+  };
+
+  // const fileUpload = file => {
+  //   const url = "/some/path/to/post";
+  //   const formData = new FormData();
+  //   formData.append("file", file);
+  //   const config = {
+  //     headers: {
+  //       "Content-type": "multipart/form-data"
+  //     }
+  //   };
+  //   return put(url, formData, config);
+  // };
+
+  // const  fileExport = file => {
+  //   // handle save for export button function
+  // };
+
   return (
     <div>
-      <h3>What's on your techy mind?</h3>
+      {/* <h3>What's on your mind?</h3> */}
 
       {Auth.loggedIn() ? (
         <>
-          <p
-            className={`m-0 ${
-              characterCount === 280 || error ? 'text-danger' : ''
-            }`}
-          >
-            Character Count: {characterCount}/280
-          </p>
+
           <form
             className="flex-row justify-center justify-space-between-md align-center"
             onSubmit={handleFormSubmit}
           >
-            <div className="col-12 col-lg-9">
+            <div className="col-12">
+              {/* <Button
+                content="Choose File"
+                labelPosition="left"
+                icon="file"
+              onClick={() => this.fileInputRef.current.click()}
+              /> */}
+              <Input
+                // ref={this.fileInputRef}
+                type="file"
+                hidden
+                className='mainColor'
+              // onChange={this.fileChange}
+              />
               <textarea
                 name="thoughtText"
                 placeholder="Here's a new thought..."
@@ -86,13 +126,19 @@ const ThoughtForm = () => {
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
                 onChange={handleChange}
               ></textarea>
+              <p
+                className={`m-0 ${characterCount === 280 || error ? 'text-danger' : ''
+                  }`}
+              >
+                Character Count: {characterCount}/280
+              </p>
             </div>
 
-            <div className="col-12 col-lg-3">
+            {/* <div className="col-12 col-lg-3">
               <button className="btn btn-primary btn-block py-3" type="submit">
                 Add Thought
               </button>
-            </div>
+            </div> */}
             {error && (
               <div className="col-12 my-3 bg-danger text-white p-3">
                 {error.message}

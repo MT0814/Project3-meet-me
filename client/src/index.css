@@ -152,7 +152,7 @@ optgroup,
 select,
 textarea {
   /* 1 */
-  font-size: 100%;
+  font-size: 1.1em;
   /* 1 */
   line-height: 1.15;
   /* 1 */
@@ -349,7 +349,7 @@ END NORMALIZE CSS
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
 }
 
 html,
@@ -1006,14 +1006,14 @@ a:hover {
 
 .mainColor {
   background-color: #ff889c !important;
-  color: whitesmoke !important;
+  color: white !important;
   /* letter-spacing: 0.085em !important; */
   font-weight: 400 !important;
 }
 
 .mainColor:hover,
 .subColor:hover {
-  background-color: #ff738a !important;
+  background-color: #ff7088 !important;
 }
 .subColor {
   background-color: rgb(172, 172, 172) !important;
@@ -1114,6 +1114,32 @@ a:hover {
   background-color: #31a9e1;
 }
 
+.ui.comment {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fontColor {
+  font-size: 1.1em;
+  color: rgb(85, 85, 85);
+}
+
+.cardIcon {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.061);
+}
+
+.cardIcon:hover {
+  color: #ff889c;
+}
+
+.ui.dimmer {
+  background-color: rgba(0, 0, 0, 0.561) !important;
+}
+
+.ui.grid {
+  margin-left: 1rem !important;
+}
+
 .card {
   border: 1px solid #1a1a1a;
   margin-bottom: 1rem;
@@ -1179,7 +1205,7 @@ form .form-input {
   color: #1a1a1a;
   background-color: #ffffff;
   margin: 0.625rem 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: 1px solid #484848;
   border-radius: 0.3rem;
 }
@@ -1363,6 +1389,7 @@ label form [type="radio"] {
 }
 
 /* col-sm */
+
 @media screen and (min-width: 640px) {
   .col-sm-auto {
     flex-grow: 1;
@@ -1551,6 +1578,12 @@ label form [type="radio"] {
     align-content: center;
   }
 }
+
+/* @media screen and (min-width: 716px) {
+  .form-input {
+    font-size: 1em;
+  }
+} */
 
 /* col-lg */
 @media screen and (min-width: 992px) {
