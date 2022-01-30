@@ -90,7 +90,7 @@ As a user I WANT to search posts or people SO THAT I can follow them
 The following dependencies are needed and must be installed for this application to run effectively:
 
 - semantic UI
-- Apollo-server-express
+- Apollo-server-
 - bcrypt
 - express
 - graphql
@@ -133,6 +133,7 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 ## Task
 
 - Front End: Millie
+
 * Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
 * Semantic UI
 * Publish to Heroku (twice, the first time was successful but that was the team version without showing my tiles, comment, like function)
