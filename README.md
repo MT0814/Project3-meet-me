@@ -1,21 +1,75 @@
 ## Impress ME
 
+![login-screen](https://user-images.githubusercontent.com/3493839/151684316-9d510c16-ffdd-4a24-b697-619be927caa9.png)
 
 ## Description
+
 Impress ME is an influencer platform which focuses on the sharing of products by various organizations or individuals from all categories and domains of works. 
 In this app users can share an existing product or a new product and have followers comment and follow their post.
 
 ### Design Ceonept
+
 Provide more opportunities for those potential influencers who can become more powerful and help brands reach win-win situation!
 
 ### Why Impress ME?
+
 - I want to become an influencer
 - I want to introduce the product I love
 - I want to meet the right brands
 
-![login-screen](https://user-images.githubusercontent.com/3493839/151684316-9d510c16-ffdd-4a24-b697-619be927caa9.png)
+### Our Plan is…
 
-     
+- Build an influencer platform for those start up brands who do not want to spend too much on influencer marketing. 
+- Help the influencer find the right brands
+
+### User Story
+```
+AS a new user I WANT to be able to sign up when I go to the homepage SO THAT I can see the homepage
+As a new user I WANT to see recommendations on homepage SO THAT I can see someone posts
+AS a user I WANT to be able to login when I go to homepage SO THAT I can see the posts
+AS a user I WANT to see the posts on the homepage after login SO THAT I can favorite it
+AS a user I WANT to add the post SO THAT I can see my post including an image and caption
+```
+### Acceptance Criteria
+```
+GIVEN a login setup page presented a "xx" logo, login form, and a sign-up button 
+WHEN I click the sign up button 
+THEN it pops up a sign-up form with the name, email, and password 
+WHEN I complete the form and submit it 
+THEN it shows me the homepage with recommendation posts
+
+GIVEN a homepage presented posts, user’s name, and logout button
+WHEN I click the logout button
+THEN I log out 
+
+GIVEN I have an account
+WHEN I complete the login form and click the login button
+THEN it shows me the homepage with posts 
+
+GIVEN a favorite button with the number of favorite on each post
+WHEN I click the favorite button
+THEN the favorite button change the color and the number of favorite increase 
+
+GIVEN a new post button
+WHEN I click the new post button
+THEN it pops up a form, including inserting an image, and adding captions
+WHEN I complete and submit it
+THEN my post shows on the homepage
+```
+### Optional user stories
+```
+AS a user I WANT to edit the caption of my post SO THAT I can change the caption
+AS a user I WANT to delete the post SO THAT I won’t see my post on homepage
+AS a user I WANT to follow someone SO THAT I can see his/her posts
+AS a user I WANT to unfollow someone SO THAT I won’t see his/her posts
+AS a user I WANT to favorite the post SO THAT I can promote the post
+AS a user I WANT to remove favorite from the post SO THAT I can change my mind
+As a user I WANT to comment on a post SO THAT I can express my thoughts
+As a user I WANT to update my comment SO THAT I can change my comment
+As a user I WANT to delete my comment SO THAT I can delete my comment
+As a user I WANT to search posts or people SO THAT I can follow them
+```
+
 ## Table of Contents:
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -28,12 +82,13 @@ Provide more opportunities for those potential influencers who can become more p
 
 ## Installation
 The following dependencies are needed and must be installed for this application to run effectively:
-Apollo-server-express
-bcrypt
-express
-graphql
-jsonwebtoken
-mongoose
+- semantic UI
+- Apollo-server-express
+- bcrypt
+- express
+- graphql
+- jsonwebtoken
+- mongoose
 
 ## Usage
 For users to post pictures of their prodcuts to the Impress ME website, they have to signup or login and upload a post. Users can also follow other users, like and comment on their post.
@@ -50,7 +105,6 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 
 ## Other files
