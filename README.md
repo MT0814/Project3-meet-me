@@ -4,7 +4,7 @@
 
 ## Description
 
-Impress ME is an influencer platform which focuses on the sharing of products by various organizations or individuals from all categories and domains of works. 
+Impress ME is an influencer platform which focuses on the sharing of products by various organizations or individuals from all categories and domains of works.
 In this app users can share an existing product or a new product and have followers comment and follow their post.
 
 ### Design Ceonept
@@ -19,10 +19,11 @@ Provide more opportunities for those potential influencers who can become more p
 
 ### Our Plan is…
 
-- Build an influencer platform for those start up brands who do not want to spend too much on influencer marketing. 
+- Build an influencer platform for those start up brands who do not want to spend too much on influencer marketing.
 - Help the influencer find the right brands
 
 ### User Story
+
 ```
 AS a new user I WANT to be able to sign up when I go to the homepage SO THAT I can see the homepage
 As a new user I WANT to see recommendations on homepage SO THAT I can see someone posts
@@ -30,7 +31,9 @@ AS a user I WANT to be able to login when I go to homepage SO THAT I can see the
 AS a user I WANT to see the posts on the homepage after login SO THAT I can favorite it
 AS a user I WANT to add the post SO THAT I can see my post including an image and caption
 ```
+
 ### Acceptance Criteria
+
 ```
 GIVEN a login setup page presented a "xx" logo, login form, and a sign-up button 
 WHEN I click the sign up button 
@@ -56,7 +59,9 @@ THEN it pops up a form, including inserting an image, and adding captions
 WHEN I complete and submit it
 THEN my post shows on the homepage
 ```
+
 ### Optional user stories
+
 ```
 AS a user I WANT to edit the caption of my post SO THAT I can change the caption
 AS a user I WANT to delete the post SO THAT I won’t see my post on homepage
@@ -71,6 +76,7 @@ As a user I WANT to search posts or people SO THAT I can follow them
 ```
 
 ## Table of Contents:
+
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Technologies](#technologies)
@@ -79,9 +85,10 @@ As a user I WANT to search posts or people SO THAT I can follow them
 6. [Tests](#tests)
 7. [Questions](#questions)
 
-
 ## Installation
+
 The following dependencies are needed and must be installed for this application to run effectively:
+
 - semantic UI
 - Apollo-server-express
 - bcrypt
@@ -91,9 +98,11 @@ The following dependencies are needed and must be installed for this application
 - mongoose
 
 ## Usage
+
 For users to post pictures of their prodcuts to the Impress ME website, they have to signup or login and upload a post. Users can also follow other users, like and comment on their post.
 
 ## Technologies
+
 1. React for the front end
 2. Semantic UI
 3. GraphQL with a node.js and Express.js server
@@ -102,10 +111,9 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 6. JWT Authentication
 7. AWS S3 Platform to store images
 
-
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Other files
 
@@ -113,13 +121,29 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 - Please click [HERE](https://drive.google.com/file/d/1TESlpz1lQWrcRMv0rGWRs6VuzPCiKwbO/view?usp=sharing) for the presentation file
 - Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app
 
+## Task
+
+- Front End:
+  Millie
+
+* Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
+* Semantic UI
+* Upload to Heroku
+
+- Back End:
+  Kartiki
+
+* MongoDB Database/ Photo upload to AWS
+  Honorine
+* Follow/ Like/ Comment function
 
 ## Contributing
+
 Contributions to this project are welcome.
 
 ## Questions
+
 For all your questions, you can contact:
 Honorinenn (Honorine Ndom Ndzah),
-MT0814 (Millie Tsai), 
+MT0814 (Millie Tsai),
 and KS1.
-
