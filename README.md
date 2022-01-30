@@ -132,15 +132,16 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 
 ## Task
 
-- Front End: Millie
+Front End: Millie
 
 * Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
 * Semantic UI
 * Publish to Heroku (twice, the first time was successful but that was the team version without showing my tiles, comment, like function)
 * Prepared presentaiton file, user story and acceptance criteria
 
-- Back End: Kartiki & Honorine
-  MongoDB Database/ Photo upload to AWS & Follow/ Like/ Comment function
+Back End: Kartiki & Honorine
+* MongoDB Database/ Photo uploaded to AWS 
+* Follow/ Like/ Comment function
 
 ## Contributing
 
