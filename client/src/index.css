@@ -1117,7 +1117,22 @@ a:hover {
 .ui.comment {
   font-family: "Poppins", sans-serif !important;
 }
+.username {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.2em !important;
+  letter-spacing: 0.022em;
+  font-weight: 500;
+}
 
+.user-space {
+  float: right;
+  color: #ff889c;
+}
+
+.user-space:hover {
+  color: #ff6781;
+  cursor: pointer;
+}
 .fontColor {
   font-size: 1.1em;
   color: rgb(85, 85, 85);

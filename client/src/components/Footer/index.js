@@ -16,7 +16,7 @@ const Footer = () => {
           </button>
         )}
         <h6>
-          © 2022 MeetME team @UW Boot Camp. All Rights Reserved.
+          © 2022 ImpressME team @UW Boot Camp. All Rights Reserved.
         </h6>
       </div>
     </footer>

@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <div>
           <Link className="text-main" to="/">
-            <h1 className="m-0 meet-font">Meet ME</h1>
+            <h1 className="m-0 meet-font">Impress ME</h1>
           </Link>
           <p className="m-0 text-light">Share the things you love as a Brand Ambassador</p>
         </div>

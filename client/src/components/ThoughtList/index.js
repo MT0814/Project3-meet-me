@@ -10,7 +10,7 @@ const ThoughtList = ({
 }) => {
   if (!thoughts.length) {
     return (
-      <h3>No Thoughts Yet</h3>
+      <h3>No Photos Yet</h3>
     )
 
   }
