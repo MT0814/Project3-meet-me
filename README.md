@@ -78,6 +78,7 @@ As a user I WANT to search posts or people SO THAT I can follow them
 ## Table of Contents:
 
 1. [Installation](#installation)
+
 2. [Usage](#usage)
 3. [Technologies](#technologies)
 4. [License](#license)
@@ -100,6 +101,7 @@ The following dependencies are needed and must be installed for this application
 ## Usage
 
 For users to post pictures of their prodcuts to the Impress ME website, they have to signup or login and upload a post. Users can also follow other users, like and comment on their post.
+![Uploading Screen Shot 2022-01-29 at 11.17.52 PM.png…]()
 
 ## Technologies
 
