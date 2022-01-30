@@ -78,7 +78,6 @@ As a user I WANT to search posts or people SO THAT I can follow them
 ## Table of Contents:
 
 1. [Installation](#installation)
-
 2. [Usage](#usage)
 3. [Technologies](#technologies)
 4. [License](#license)
@@ -101,7 +100,15 @@ The following dependencies are needed and must be installed for this application
 ## Usage
 
 For users to post pictures of their prodcuts to the Impress ME website, they have to signup or login and upload a post. Users can also follow other users, like and comment on their post.
-![Uploading Screen Shot 2022-01-29 at 11.17.52 PM.png…]()
+
+- Homepage shows the beautiful tiles and with dimmer effect on the images. Comment or Like it
+  ![screenshot](./assets/tiles.png)
+
+- Comment, Follow or Reply
+  ![screenshot](./assets/comment-modal.png)
+
+- Create New Post
+  ![screenshot](./assets/newPost.png)
 
 ## Technologies
 
@@ -121,7 +128,7 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 
 - Please click [HERE](https://drive.google.com/file/d/1qqwsxnuhvGD3it5bchqAF0ODnv0usmEX/view?usp=sharing) for the proposal
 - Please click [HERE](https://drive.google.com/file/d/1TESlpz1lQWrcRMv0rGWRs6VuzPCiKwbO/view?usp=sharing) for the presentation file
-- Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app (Team's version without my tiles)
+- Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app
 
 ## Task
 
@@ -131,12 +138,15 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 * Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
 * Semantic UI
 * Upload to Heroku
+* Prepared presentaiton file, User story and Acceptance criteria
 
 - Back End:
   Kartiki
 
 * MongoDB Database/ Photo upload to AWS
+
   Honorine
+
 * Follow/ Like/ Comment function
 
 ## Contributing
@@ -146,6 +156,6 @@ Contributions to this project are welcome.
 ## Questions
 
 For all your questions, you can contact:
-Honorinenn (Honorine Ndom Ndzah),
-MT0814 (Millie Tsai),
-and KS1.
+[Honorinenn](https://github.com/Honorinenn),
+[MT0814](https://github.com/MT0814),
+and [KS1](https://github.com/KS1).
