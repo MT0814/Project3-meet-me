@@ -119,7 +119,7 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 
 - Please click [HERE](https://drive.google.com/file/d/1qqwsxnuhvGD3it5bchqAF0ODnv0usmEX/view?usp=sharing) for the proposal
 - Please click [HERE](https://drive.google.com/file/d/1TESlpz1lQWrcRMv0rGWRs6VuzPCiKwbO/view?usp=sharing) for the presentation file
-- Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app
+- Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app (Team's version without my tiles)
 
 ## Task
 
