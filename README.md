@@ -128,20 +128,21 @@ For users to post pictures of their prodcuts to the Impress ME website, they hav
 
 - Please click [HERE](https://drive.google.com/file/d/1qqwsxnuhvGD3it5bchqAF0ODnv0usmEX/view?usp=sharing) for the proposal
 - Please click [HERE](https://drive.google.com/file/d/1TESlpz1lQWrcRMv0rGWRs6VuzPCiKwbO/view?usp=sharing) for the presentation file
-- Please click [HERE](https://impress-me-app.herokuapp.com/) for the Impress ME app (TEAM version without showing my tiles) (I'm trying to publish to heroku with my tiles version...please wait)
+- Please click [HERE](https://impress-me-app1.herokuapp.com/) for the Impress ME app (TEAM version without showing my tiles) (I'm trying to publish to heroku with my tiles version...please wait)
 
 ## Task
 
 Front End: Millie
 
-* Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
-* Semantic UI
-* Publish to Heroku (twice, the first time was successful but that was the team version without showing my tiles, comment, like function)
-* Prepared presentaiton file, user story and acceptance criteria
+- Login/ Logout/ Signup function ready/ Add post modal and choose the file in the computer/ Comment modal/ Hompage layout
+- Semantic UI
+- Publish to Heroku (twice, the first time was successful but that was the team version without showing my tiles, comment, like function)
+- Prepared presentaiton file, user story and acceptance criteria
 
 Back End: Kartiki & Honorine
-* MongoDB Database/ Photo uploaded to AWS 
-* Follow/ Like/ Comment function
+
+- MongoDB Database/ Photo uploaded to AWS
+- Follow/ Like/ Comment function
 
 ## Contributing
 
