@@ -65,11 +65,11 @@ THEN my post shows on the homepage
 ```
 AS a user I WANT to edit the caption of my post SO THAT I can change the caption
 AS a user I WANT to delete the post SO THAT I won’t see my post on homepage
-AS a user I WANT to follow someone SO THAT I can see his/her posts
+AS a user I WANT to follow someone SO THAT I can see his/her posts   <interface ready only>
 AS a user I WANT to unfollow someone SO THAT I won’t see his/her posts
-AS a user I WANT to favorite the post SO THAT I can promote the post
+AS a user I WANT to favorite the post SO THAT I can promote the post  <interface ready only>
 AS a user I WANT to remove favorite from the post SO THAT I can change my mind
-As a user I WANT to comment on a post SO THAT I can express my thoughts
+As a user I WANT to comment on a post SO THAT I can express my thoughts  <interface ready only>
 As a user I WANT to update my comment SO THAT I can change my comment
 As a user I WANT to delete my comment SO THAT I can delete my comment
 As a user I WANT to search posts or people SO THAT I can follow them
