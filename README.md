@@ -26,10 +26,10 @@ Provide more opportunities for those potential influencers who can become more p
 
 ```
 AS a new user I WANT to be able to sign up when I go to the homepage SO THAT I can see the homepage
-As a new user I WANT to see recommendations on homepage SO THAT I can see someone posts
-AS a user I WANT to be able to login when I go to homepage SO THAT I can see the posts
-AS a user I WANT to see the posts on the homepage after login SO THAT I can favorite it
-AS a user I WANT to add the post SO THAT I can see my post including an image and caption
+As a new user I WANT to see recommendations on homepage SO THAT I can see someone posts  <Not ready yet, hardcoding now>
+AS a user I WANT to be able to login when I go to homepage SO THAT I can see the posts 
+AS a user I WANT to see the posts on the homepage after login SO THAT I can favorite it  <Not ready yet, hardcoding now>
+AS a user I WANT to add the post SO THAT I can see my post including an image and caption  <Not ready yet, hardcoding now>
 ```
 
 ### Acceptance Criteria
@@ -39,7 +39,7 @@ GIVEN a login setup page presented a "xx" logo, login form, and a sign-up button
 WHEN I click the sign up button 
 THEN it pops up a sign-up form with the name, email, and password 
 WHEN I complete the form and submit it 
-THEN it shows me the homepage with recommendation posts
+THEN it shows me the homepage with recommendation posts <Not ready yet>
 
 GIVEN a homepage presented posts, user’s name, and logout button
 WHEN I click the logout button
@@ -47,17 +47,17 @@ THEN I log out 
 
 GIVEN I have an account
 WHEN I complete the login form and click the login button
-THEN it shows me the homepage with posts 
+THEN it shows me the homepage with posts  <Not ready yet, hardcoding now>
 
 GIVEN a favorite button with the number of favorite on each post
 WHEN I click the favorite button
-THEN the favorite button change the color and the number of favorite increase 
+THEN the favorite button change the color and the number of favorite increase  <Not ready yet, hardcoding now>
 
-GIVEN a new post button
-WHEN I click the new post button
-THEN it pops up a form, including inserting an image, and adding captions
-WHEN I complete and submit it
-THEN my post shows on the homepage
+GIVEN a new post button 
+WHEN I click the new post button 
+THEN it pops up a form, including inserting an image, and adding captions  <Not ready yet, hardcoding now>
+WHEN I complete and submit it 
+THEN my post shows on the homepage 
 ```
 
 ### Optional user stories
