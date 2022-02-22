@@ -90,7 +90,7 @@ As a user I WANT to search posts or people SO THAT I can follow them
 The following dependencies are needed and must be installed for this application to run effectively:
 
 - semantic UI
-- Apollo-server-
+- Apollo server
 - bcrypt
 - express
 - graphql
